@@ -10,7 +10,6 @@ public class takeItem {
 	public int itemQuantityTaken;
 	public String notes;
 	public takeItem(String itemCode, int deptId, int userId, Date itemDateTaken, int itemQuantityTaken, String notes) {
-		super();
 		this.itemCode = itemCode;
 		this.deptId = deptId;
 		this.userId = userId;
@@ -18,6 +17,11 @@ public class takeItem {
 		this.itemQuantityTaken = itemQuantityTaken;
 		this.notes = notes;
 	}
+	
+	public takeItem() {
+
+	}
+
 	public String getItemCode() {
 		return itemCode;
 	}

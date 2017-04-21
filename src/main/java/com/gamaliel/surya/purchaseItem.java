@@ -20,6 +20,11 @@ public class purchaseItem {
 		this.itemDatePurchased = itemDatePurchased;
 		this.itemQuantityPurchased = itemQuantityPurchased;
 	}
+	
+	public purchaseItem() {
+
+	}
+
 	public String getItemCode() {
 		return itemCode;
 	}

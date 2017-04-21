@@ -12,13 +12,17 @@ public class item {
 	private int itemStock;
 	private int itemBufferStock;
 	public item(String itemCode, String itemName, Boolean isStock, int itemStock, int itemBufferStock) {
-		super();
 		this.itemCode = itemCode;
 		this.itemName = itemName;
 		this.isStock = isStock;
 		this.itemStock = itemStock;
 		this.itemBufferStock = itemBufferStock;
 	}
+	
+	public item() {
+
+	}
+
 	public Long getItemId() {
 		return itemId;
 	}
